@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formularios</title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <label>Nombre completo:</label>
+        <br />
+        <input type="text" id="txtNombre" required />
+        <br />
+        <br />
+
+        <label>Correo:</label>
+        <br />
+        <input type="email" id="txtCorreo" required />
+        <br />
+        <br />
+
+        <label>Fecha:</label>
+        <br />
+        <input type="date" id="txtFecha" required />
+        <br />
+        <br />
+
+        <label>Telefono:</label>
+        <br />
+        <input type="tel" id="txtTelefono" placeholder="0000-0000" required />
+        <br />
+        <br />
+
+        <label>Asunto</label>
+        <br />
+        <select id="slAsunto">
+            <option value="Ventas">VENTAS</option>
+            <option value="Soporte">SOPORTE</option>
+            <option value="Reclamo">RECLAMO</option>
+
+        </select>
+        <br />
+        <br />
+
+        <label>Mensaje</label>
+        <br />
+        <textarea id="txtMensaje" rows="3" cols="60"></textarea>
+        <br />
+        <br />
+
+        <button type="submit">Enviar</button>
+
+
+    </form>
+
+    <!--Direccionamiento-->
+    <br>
+    <a href="../index.html">Regresar al inicio</a>
+
+
+</body>
+</html>
